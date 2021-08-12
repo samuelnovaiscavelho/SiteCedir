@@ -1,7 +1,7 @@
 # SiteCedir
 
   <ul>
-<li>Proposta do curso <a href="http://www.lassu.usp.br/paideia">PAIDEIA</a>
+<li>Proposta do curso <a href="http://www.lassu.usp.br/paideia"><strong>PAIDEIA</strong></a>
   
 <li>Website desenvolvido para o projeto do <strong>Cedir</strong>, referente ao descarte correto para materiais eletrônicos, com isso foi usado <strong>HTML</strong> e <strong>CSS</strong> para o desenvolvimento do site.
 <ul>
