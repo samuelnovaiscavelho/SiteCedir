@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CEDIR</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="CSS/estilog.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="menu">
+      <img src="imagens/transparentecedir.png" width="100" height="50">
+      <a href="equipe.html">Equipe</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="doacoes.html">Doações</a>
+      <a href="index.html">Início</a>
+  </div>
+
+  <div class="img-painel">
+    <div class="texto-painel">
+      <h1 style="font-size: 50px">Galeria</h1>
+      <p style="font-size: 20px">Fotos do CEDIR</p>
+    </div>
+
+  </div>
+
+<br>
+<br>
+<img style="margin-left: 45%" src="imagens/iconecamera.png" width="50" height="50">
+<br>
+<br>
+
+<div class="row" style="margin-left: 8%">
+  <div class="column">
+    <img src="imagens/01.JPG" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/02.JPG" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/03.JPG" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/04.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/05.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/06.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/07.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+
+  <div class="column">
+    <img src="imagens/08.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/09.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/10.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/11.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/12.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="imagens/13.JPG" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 13</div>
+      <img src="imagens/01.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 13</div>
+      <img src="imagens/02.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 13</div>
+      <img src="imagens/03.JPG" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 13</div>
+      <img src="imagens/04.JPG" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">5 / 13</div>
+      <img src="imagens/05.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 13</div>
+      <img src="imagens/06.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 13</div>
+      <img src="imagens/07.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 13</div>
+      <img src="imagens/08.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 13</div>
+      <img src="imagens/09.JPG" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10 / 13</div>
+      <img src="imagens/10.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">11 / 13</div>
+      <img src="imagens/11.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">12 / 13</div>
+      <img src="imagens/12.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">13 / 13</div>
+      <img src="imagens/13.JPG" style="width:100%">
+    </div>
+
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    
+    
+    
+    
+  </div>
+</div>
+
+
+<div class="videos" style="height: 350px">
+  <div class="quadrosvideos">
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/CB_AcjZxKZ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="quadrosvideos">
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/igxbnQ8hBs0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+
+<footer style="height: 110px">
+        <img class="foto-footer" src="imagens/transparentecedirfooter.png" height="50" width="110">
+        <div class="info-footer">
+          <p>CEDIR - Centro de Descarte e Reúso de Resíduos de Informática<br>
+            Av. Professor Lúcio Martins Rodrigues, Travessa 4, n° 396 - Cidade Universitária<br>
+          (11) 3091-8237/8238.</p>
+
+
+        </div>
+
+          <div class="social">
+            <a target="_blank" href="https://www.fb.com/cedir.usp" class="fa fa-facebook"></a>
+            <a target="_blank" href="https://www.twitter.com/cedir_usp" class="fa fa-twitter"></a>
+            
+          </div>
+
+    
+  </footer>  
+  
+</body>
+</html>

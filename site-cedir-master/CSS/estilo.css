@@ -1,0 +1,331 @@
+.menu {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	left: 0;
+	z-index: 1;
+}
+.menu img {
+	margin-left: 45%;
+}
+.menu a {
+	float: right;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 16px;
+	font-size: 19px;
+	color: #662200;
+	font-family: "Arial";
+	font-style: normal;
+	font-weight: bolder;
+
+	
+}
+.menu a:hover {
+	background-image: url("folha.png");
+	background-repeat: no-repeat;
+}
+
+.img-painel {
+  background-image: url("principal.JPG");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+}
+.texto-painel {
+	text-align: center;
+    position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: white;
+  	font-family: inherit;
+  	font-style: italic;
+}
+
+.textosobre {
+	width: 100%;
+	background-color: #117c9d;
+	border-top: groove white;
+	border-radius: 5px;
+	
+}
+.textoo h3 {
+	margin-right: 200px;
+	font-family: Trebuchet MS, sans-serif;
+	float: right;
+	color: white;
+	font-style: bold;
+	font-size: 28px;
+}
+/*.textoo p {
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+	float: right;
+	width: 620px;
+	margin-top: 1px;
+	margin-right: -30%;
+}*/
+
+.col1{
+	width: 66%;
+	float: right;
+	overflow: hidden;
+}
+
+.col1 h3 {
+	  text-align: center;
+  font-family: inherit;
+  font-style: italic;
+  font-size: 28px;
+  color: white;
+}
+
+.col1 p{
+	color: black;
+	font-style: italic;
+	font-size: 20px;
+	width: 90%;
+	margin-top: 1px;
+	margin-right: -30%;
+	text-align: center;
+}
+
+.col2{
+	width: 30%;
+}
+
+.col2 img{
+	margin-top: 12%;
+	margin-left: 10%;
+	height: auto;
+	max-width: 100%;
+	float: left;
+	position: absolute;
+	border-radius: 50%;
+}
+
+/*.textoo img {
+	margin-top: -2%;
+	margin-left: 20%;
+
+}*/
+
+.doacoes {
+	background-color: #bbd64f;
+	border-radius: 10px 10px 10px;
+}
+
+.doacoes img {
+	position: static;
+	float: right;
+	margin-right:	 10%;
+	margin-top: 5%;
+	border-radius: 50%;
+}
+
+.doacoes h3 {
+	margin-left: 20%;
+	font-size: 25px;
+    font-family: inherit;
+    font-style: italic;
+    font-size: 28px;
+    color: white;
+    margin-top: 2%;
+}
+
+.doacoes p {
+	margin-left: 5%;
+	width: 60%;
+	float: left;
+	color: black;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.doacoes button {
+	margin-left: 25%;
+}
+
+.doacoes button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.doacoes button:hover{
+	background-color: #555;
+  color: white;
+}
+
+.videosobre {
+	text-align: center;
+}
+
+.videosobre iframe {
+	margin-top: 3%;
+}
+
+
+
+footer {
+	background-color: #e6e6e6;
+	bottom: 0;
+}
+
+.foto-footer {
+	float: right;
+	margin-right: 40%;
+	margin-top: 15px;
+}
+
+.info-footer {
+	width: 50%;
+	position: absolute;
+	
+}
+.info-footer p {
+	float: right;
+	font-family: 'Source Sans Pro',sans-serif;
+    color: black;
+    font-size: 11px;
+    border-right: 1px solid #3ca1c3;
+    padding-left: 10px;
+    margin-top: 17px;
+    padding-top: 1px;
+    padding-bottom: 4px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.social {
+	text-align: center;
+	padding-top: 64px;
+	margin-left: 0;
+}
+
+.h3contatos h3 {
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.quadro {
+	
+	padding: 0 36px;
+	width: 33.3%;
+	float: left;
+	text-align: center;
+
+}
+
+.h3contatos h3 {
+	font-size: 28px;
+    font-family: inherit;
+    font-style: italic;
+    
+}
+
+.titulotelefone p {
+	font-style: italic;
+}
+
+.endereco p {
+	font-style: italic;
+}
+
+.noticias {
+	background-color: #117c9d;
+	border-radius: 10px 10px 10px;
+}
+
+.quadro2 {
+	padding: 0 36px;
+	width: 50%;
+	float: left;
+	text-align: ;
+	color: #f6f7f9;
+}
+
+.divh2 a {
+	float: left;
+}
+
+.divh2 h2 {
+	margin-top: 15%;
+	margin-left: 20%;
+}
+
+.divface iframe {
+	margin-top: 10%;
+}
+
+.pcs-post-titles a {
+	background-color: transparent;
+	    color: #333;
+}
+
+a {
+	background-color: transparent;
+	color: #f6f7f9;;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+.divh2 a:hover {
+	color: lightgreen;
+}
+
+
+body {
+	margin: 0;
+}
+
+
+
+*{
+    box-sizing:border-box;
+}
+
+
